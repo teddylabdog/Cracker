@@ -1,0 +1,100 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+*.log.*
+
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.whl
+*.egg
+*.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows generated files
+Thumbs.db
+Desktop.ini
+
+# IDE specific folders
+## IntelliJ
+.idea/
+*.iml
+## Eclipse
+.classpath
+.project
+.settings/
+## Visual Studio Code
+.vscode/
+.history/
+## NetBeans
+nbproject/private/
+## PyCharm
+.idea/
+.pydevproject
+
+# Node specific
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Environment variables and other sensitive files
+.env
+.env.*
+*.env.*
+!.env.example
+
+# Editor backups and temporary files
+*~
+*.swp
+*.swo
+*.swn
+*.bak
+*.backup
+*.tmp
+*.temp
+*.orig
+*.rej
+*.old
+
+# Compiled files
+*.out
+*.o
+*.a
+*.lib
+*.dylib
+*.dll
+*.exe
+
+# Package manager generated files
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+.lock-wscript
+
+# Additional Git ignore rules provided
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
